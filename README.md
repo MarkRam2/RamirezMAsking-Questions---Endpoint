@@ -1,11 +1,14 @@
 # RamirezMAsking-Questions---Endpoint
 
-you should copy this url into the top mot Search bar
-http://localhost:5122/AskingQuestions/Asking/
- 
- with this one it will be asking you two questions 
+to start the program you will have to start the debug in vs code you will then have to go into the debug console and copy the urls from there
+it should look like this the number may diffrent http://localhost:5028 
 
-the first is your name the second will be what time you woke up
+you will then need to add
+/AskingQuestions/Asking/{name}/{time}
 
-so the url will look like this 
-http://localhost:5122/AskingQuestions/Asking/mark/6:32
+{name} and {time} may be replaced with your name and the time you woke up so you url will look like this
+http://localhost:5028/AskingQuestions/Asking/mark/6:32
+you will then add this url to the omnibox
+
+you will then be given a prompt simular to this
+wow mark woke up at 6:32 good job
